@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/user/bin/python3
 from sys import argv
 if __name__ == "__main__":
     count = len(argv) -1
