@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-add = 0
-for s in argv[1:]:
-    add += int(s)
-print("{:d}".format(add))
+from sys import argv
+if __name__ == "__main__":
+    count = len(argv) -1
+    sum = 0
+
+    for i in range(count):
+        sum += (int(argv[ i + 1 ]))
+    print(sum)
+    
